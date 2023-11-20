@@ -1,4 +1,4 @@
-#Date: 2023-11-20
+# Date: 2023-11-20
 - Created the "miniprojekt 11" repo
 - Created a design template for the project
 - Added assest to the project in the repo
