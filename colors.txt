@@ -1,0 +1,11 @@
+Dark Purple (BG)
+#15142c
+
+Light Purple (BG)
+#1e1c39
+
+Yellow/Orange
+#ffb800
+
+Text
+#ffffff
