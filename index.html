@@ -7,17 +7,34 @@
   </head>
   <body>
     <header class="header">
-      <div class="header--logo"><h1>MRW.</h1></div>
+      <!-- TODO: Make the logo into a 'Home' link button -->
+      <a href="#" aria-label="Logo"><h1 class="header--logo">MRW.</h1></a>
       <nav class="header--navigation">
+        <!-- TODO: Add 'id' for the different sections to link them to the navigation -->
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="header--hamburger-menu"></div>
+      <!-- TODO: If we have time over, we can make a functional drop-down menu connected to the hamburger menu button -->
+      <div class="header--hamburger-menu">
+        <!-- TODO: Animate the hamburger icon -->
+        <!-- !Not sure what type of animation to set, may change this layout if needed -->
+        <div class="header--hamburger-menu--icon">
+          <span class="header--hamburger-menu--icon--top">
+            <!-- Top -->
+          </span>
+          <span class="header--hamburger-menu--icon--middle">
+            <!-- Middle -->
+          </span>
+          <span class="header--hamburger-menu--icon--bottom">
+            <!-- Bottom -->
+          </span>
+        </div>
+      </div>
     </header>
   </body>
 </html>
