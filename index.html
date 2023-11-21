@@ -6,7 +6,41 @@
     <title>Miniprojekt 11 | Mamed, Natliya, Rowel, Wilhelm</title>
   </head>
   <body>
-    <!-- Hej -->
+    <!-- *Header Section (Start) -->
+    <header class="header">
+      <!-- TODO: Make the logo into a 'Home' link button -->
+      <a href="#" aria-label="Logo"><h1 class="header--logo">MRW.</h1></a>
+
+      <!-- TODO: Add 'id' for the different sections to link them to the navigation -->
+      <nav class="header--navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- TODO: If we have time over, we can make a functional drop-down menu connected to the hamburger menu button -->
+      <div class="header--hamburger-menu">
+        <!-- TODO: Animate the hamburger icon -->
+        <div class="header--hamburger-menu--button">
+          <!-- !Not sure what type of animation to set, may change this layout if needed -->
+          <span class="header--hamburger-menu--button--icon-top">
+            <!-- Top -->
+          </span>
+          <span class="header--hamburger-menu--button--icon-middle">
+            <!-- Middle -->
+          </span>
+          <span class="header--hamburger-menu--button--icon-bottom">
+            <!-- Bottom -->
+          </span>
+        </div>
+      </div>
+    </header>
+    <!-- *Header Section (End) -->
+    
     <!--About Us-section-->
     <section class="about">
         <h2 class="uppercase">About Us</h2>
@@ -115,6 +149,7 @@
             </div>
         </div>
     </section>
+    
     <!--Expertise-section-->
     <section class="expertise">
         <h2 class="uppercase">Expertise Area</h2>
@@ -151,6 +186,8 @@
             </div>
         </div>
     </section>
+    
+    <!-- Contact -->
     <footer class="footer">
     <form action="submit_form" method="post">
         <input type="text" id="name" name="name" placeholder="Your Name">
