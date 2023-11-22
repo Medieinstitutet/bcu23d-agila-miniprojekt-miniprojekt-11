@@ -8,12 +8,11 @@
 
   <body>
     <!-- *Header Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <header class="header">
-      <!-- TODO: Make the logo into a 'Home' link button -->
-      <a href="#" aria-label="Logo"><h1 class="logo">MRW.</h1></a>
+      <a href="#" aria-label="Logo"><div class="logo">MRW.</div></a>
 
-      <!-- TODO: Add 'id' for the different sections to link them to the navigation -->
-      <nav class="navigation">
+      <nav class="navigation uppercase">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -23,11 +22,8 @@
         </ul>
       </nav>
 
-      <!-- TODO: If we have time over, we can make a functional drop-down menu connected to the hamburger menu button. For now, focus on a hover effect. -->
       <div class="hamburger-menu">
-        <!-- TODO: Animate a hover effect for the hamburger icon -->
         <div class="hamburger-btn">
-          <!-- !Feel free to be creative with the hover animation -->
           <span class="hamburger-icon top-part">
             <!-- Top -->
           </span>
@@ -43,6 +39,7 @@
     <!-- *Header Section (End) -->
 
     <!-- *Hero Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <section class="hero">
       <figure class="hero-image">
         <img
@@ -54,10 +51,10 @@
         />
       </figure>
 
-      <div class="introduction">
+      <article class="introduction">
         <span class="accent-text">Hello</span>
+        <h1>We're <span class="accent-text">Team MNRW</span></h1>
 
-        <h2>We're <span class="accent-text">Team MNRW</span></h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
           inventore molestias accusamus corrupti magnam consequatur commodi
@@ -66,13 +63,16 @@
         </p>
 
         <button class="btn">Hire Us</button>
-      </div>
+      </article>
     </section>
     <!-- *Hero Section (End) -->
 
     <!-- *About Us Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <section class="about">
-      <h2 class="uppercase accent-text">About Us</h2>
+      <header>
+        <h2 class="uppercase accent-text">About Us</h2>
+      </header>
 
       <!-- Mamed's Profile -->
       <div class="about-block">
@@ -88,28 +88,30 @@
           <div><!-- Decorative Element --></div>
         </figure>
 
-        <h3 class="accent-text">Mamed Khodjaev</h3>
-        <h4 class="accent-text">Blockchain Developer - Backend</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
-          blandit libero, nec malesuada turpis. Donec facilisis ex ut consequat
-          maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed.
-          Integer finibus id libero ut dignissim. Aenean finibus nibh at magna
-          aliquet scelerisque id vitae augue.
-        </p>
+        <article class="profile-container">
+          <h3 class="accent-text">Mamed Khodjaev</h3>
+          <h4 class="accent-text">Blockchain Developer - Backend</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
 
-        <div class="btn-container">
-          <button class="cv-btn">Download CV</button>
-          <button class="social-btn">
-            <a href="#">Git</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">LinkedIn</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">X</a>
-          </button>
-        </div>
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
       </div>
 
       <!-- Nataliya's Profile -->
@@ -126,28 +128,30 @@
           <div><!-- Decorative Element --></div>
         </figure>
 
-        <h3 class="accent-text">Nataliya Lisjö</h3>
-        <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
-          blandit libero, nec malesuada turpis. Donec facilisis ex ut consequat
-          maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed.
-          Integer finibus id libero ut dignissim. Aenean finibus nibh at magna
-          aliquet scelerisque id vitae augue.
-        </p>
+        <article class="profile-container">
+          <h3 class="accent-text">Nataliya Lisjö</h3>
+          <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
 
-        <div class="btn-container">
-          <button class="cv-btn">Download CV</button>
-          <button class="social-btn">
-            <a href="#">Git</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">LinkedIn</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">X</a>
-          </button>
-        </div>
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
       </div>
 
       <!-- Rowel's Profile -->
@@ -164,28 +168,30 @@
           <div><!-- Decorative Element --></div>
         </figure>
 
-        <h3 class="accent-text">Rowel Malmström</h3>
-        <h4 class="accent-text">Blockchain Developer - Frontend</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
-          blandit libero, nec malesuada turpis. Donec facilisis ex ut consequat
-          maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed.
-          Integer finibus id libero ut dignissim. Aenean finibus nibh at magna
-          aliquet scelerisque id vitae augue.
-        </p>
+        <article class="profile-container">
+          <h3 class="accent-text">Rowel Malmström</h3>
+          <h4 class="accent-text">Blockchain Developer - Frontend</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
 
-        <div class="btn-container">
-          <button class="cv-btn">Download CV</button>
-          <button class="social-btn">
-            <a href="#">Git</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">LinkedIn</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">X</a>
-          </button>
-        </div>
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
       </div>
 
       <!-- Wilhelm's Profile -->
@@ -202,35 +208,40 @@
           <div><!-- Decorative Element --></div>
         </figure>
 
-        <h3 class="accent-text">Wilhelm Lövgren Olofsson</h3>
-        <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
-          blandit libero, nec malesuada turpis. Donec facilisis ex ut consequat
-          maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed.
-          Integer finibus id libero ut dignissim. Aenean finibus nibh at magna
-          aliquet scelerisque id vitae augue.
-        </p>
+        <article class="profile-container">
+          <h3 class="accent-text">Wilhelm Lövgren Olofsson</h3>
+          <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
 
-        <div class="btn-container">
-          <button class="cv-btn">Download CV</button>
-          <button class="social-btn">
-            <a href="#">Git</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">LinkedIn</a>
-          </button>
-          <button class="social-btn">
-            <a href="#">X</a>
-          </button>
-        </div>
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
       </div>
     </section>
     <!-- *About Us Section (End) -->
 
     <!-- *Expertise Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <section class="service">
-      <h2 class="uppercase accent-text">Expertise Area</h2>
+      <header>
+        <h2 class="uppercase accent-text">Expertise Area</h2>
+      </header>
 
       <div class="service-container">
         <div class="service-block">
@@ -270,16 +281,16 @@
     <!-- *Expertise Section (End) -->
 
     <!-- *Recent Work Section (Start )-->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <section class="work">
-      <div>
-        <h2>Recent work</h2>
+      <header>
+        <h2 class="uppercase accent-text">Recent work</h2>
         <p>
           Elementum sagittis vitae et leo duis ut diam quam nulla. Malesuada
           fames ac turpis egestas.
         </p>
-      </div>
+      </header>
 
-      <!-- TODO: Give the images a hover effect -->
       <div class="work-container">
         <div class="work-item">
           <img
@@ -316,6 +327,7 @@
     <!-- *Recent Work Section (End) -->
 
     <!-- *Contact Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <footer class="contact">
       <form class="contact-form" action="submit_form" method="post">
         <input type="text" id="name" name="name" placeholder="Your Name" />
