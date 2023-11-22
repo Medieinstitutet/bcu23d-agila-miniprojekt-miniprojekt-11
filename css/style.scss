@@ -1,5 +1,12 @@
-@import "./normalize"; 
 @import "./variables";
+@import "./normalize"; 
+@import "header";
+@import "hero";
+@import "about";
+@import "service";
+@import "work";
+@import "contact";
+@import "screen";
 
 body .main {
     font-family: $font-primary;

@@ -6,3 +6,12 @@
 - Added our tasks to the project board
 - Prepared the first 'in progress' tasks (HTML) and coverted them into issues for the repo
 - Tried doing 2 test pull request
+
+# Date: 2023-11-21
+- Work on the html
+- given feedback on pull requests
+- revlose pull request feeback
+- merged the html pull request back to main
+- mini group discussion, dividing tasks among ourselves
+- unify the html class, find reusable classes
+- setting up css reset, normalize, variables and general styles
