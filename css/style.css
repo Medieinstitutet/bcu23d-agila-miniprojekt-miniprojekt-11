@@ -34,8 +34,8 @@ p {
 
 .hero--image {
   border: 3px dotted red;
-  width: 300px;
-  height: 300px;
+  width: clamp(200px, 80vw, 300px);
+  height: clamp(200px, 80vw, 300px);
 }
 
 .hero--image img {
@@ -46,7 +46,7 @@ p {
 }
 
 .hero--introduction {
-  /* flex: 1; */
+  flex: 1;
   padding: 1em;
   max-width: 500px;
 }
@@ -67,27 +67,14 @@ p {
   background-color: #dda20a;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero {
     flex-direction: row-reverse;
     text-align: left;
   }
 
-  .hero--image img {
-  }
-
-  .hero--introduction,
   .hero--image {
-    padding: 0.5em;
-    flex: none;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  .button {
-    padding: 0.8em 1.6em;
-    font-size: 0.9em;
+    width: clamp(300px, 30vw, 500px);
+    height: clamp(300px, 30vw, 500px);
   }
 }
