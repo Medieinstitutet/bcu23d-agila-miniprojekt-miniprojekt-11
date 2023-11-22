@@ -1,92 +1,93 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif; /* dont know font we are using */
+
+.footer {
+    background-color: #15142C; 
+    color: white;
+    padding: 40px 20px; 
+    text-align: center;
 }
 
-/* Hero section styles */
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #2D2F6F; /* BGC */
-    color: #ffffff;
-    padding: 2em;
+
+.footer form {
+    background-color: #1E1C39; 
+    padding: 20px;
+    margin-bottom: 20px; 
+    display: inline-block;
 }
 
-.hero--image {
-width: 100%;
-height: 100%;
-flex: 1;
-display: none;
-justify-content: center;
-align-items: center;
-}
-
-.hero--image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%; /* Circle shape */
-}
-
-.hero--introduction {
-    flex: 1;
-    padding: 1em;
-}
-
-.accent-text {
-    color: #F9A826; 
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 2.5em; 
-    margin: 0.5em 0;
-}
-
-p {
-    line-height: 1.5;
-    margin-bottom: 2em;
-}
-
-.button {
-    background-color: #F9A826; 
-    color: #ffffff;
+.footer input, .footer textarea, .footer button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
     border: none;
-    padding: 1em 2em;
-    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.footer input[type="text"], .footer input[type="email"] {
+    background-color: #15142C; 
+    color: white;
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
+.footer textarea {
+    background-color: #1E1C39; 
+    color: white;
+    border: 1px solid white; 
+    outline: none; 
+}
+
+.footer textarea:focus {
+    box-shadow: 0 0 0 2px white; 
+}
+
+.footer button {
+    background-color: #F2AF00; 
+    color: white;
+    font-weight: bold;
+    border: none;
     cursor: pointer;
-    border-radius: 0.3em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: #DDA20A; 
+.footer button:hover {
+    background-color: #cc8400; 
 }
 
 
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-  
-    .hero--image img {
-        max-width: 80%; 
-    }
-  
-    .hero--introduction, .hero--image {
-        padding: 0.5em;
-        flex: none; 
-    }
+.container {
+    background-color: #15142C; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
-    h2 {
-        font-size: 2em; 
-    }
+.container p, .container ul {
+    text-align: left;
+    margin: 0 0 10px; 
+}
 
-    .button {
-        padding: 0.8em 1.6em; 
-        font-size: 0.9em; 
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container li {
+    margin-bottom: 5px; 
+}
+
+/* Footer Bottom Styles */
+.footer-bottom {
+    background-color: #15142C; 
+    padding: 10px 20px;
+}
+
+.footer-bottom p {
+    margin: 0; 
+    font-size: 0.8em; 
+}
+
+@media (max-width: 1024px) {
+    .footer form, .container {
+        width: 100%; 
+        display: block;
     }
 }
