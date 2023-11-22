@@ -18,7 +18,7 @@
 .service-block{
     background-color: #1e1c39;
     width: 100%;
-    height: min-height;
+    min-height: 20rem;
     margin: 1rem;
     display: flex;
     flex-direction: column;
