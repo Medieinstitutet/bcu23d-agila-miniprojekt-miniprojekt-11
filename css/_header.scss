@@ -1,5 +1,5 @@
 @import "./variables";
-@import "./normalize";  
+
 
 .header-nav{
     overflow: hidden;
@@ -35,5 +35,13 @@
         text-decoration: none;  
       }
     }
+
+   
+
+        .menu-btn-icon:hover:icon   {
+            transform: translateX(-3px);
+          } 
+  
+
 }
 
