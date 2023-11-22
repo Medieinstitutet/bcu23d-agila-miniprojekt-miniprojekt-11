@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miniprojekt 11 | Mamed, Natliya, Rowel, Wilhelm</title>
   </head>
+
   <body>
     <!-- *Header Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <header class="header">
-      <!-- TODO: Make the logo into a 'Home' link button -->
-      <a href="#" aria-label="Logo"><h1 class="header--logo">MRW.</h1></a>
+      <a href="#" aria-label="Logo"><div class="logo">MRW.</div></a>
 
-      <!-- TODO: Add 'id' for the different sections to link them to the navigation -->
-      <nav class="header--navigation">
+      <nav class="navigation uppercase">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -22,28 +22,26 @@
         </ul>
       </nav>
 
-      <!-- TODO: If we have time over, we can make a functional drop-down menu connected to the hamburger menu button -->
-      <div class="header--hamburger-menu">
-        <!-- TODO: Animate the hamburger icon -->
-        <div class="header--hamburger-menu--button">
-          <!-- !Not sure what type of animation to set, may change this layout if needed -->
-          <span class="header--hamburger-menu--button--icon-top">
+      <div class="hamburger-menu">
+        <div class="hamburger-btn">
+          <span class="hamburger-icon top-part">
             <!-- Top -->
           </span>
-          <span class="header--hamburger-menu--button--icon-middle">
+          <span class="hamburger-icon middle-part">
             <!-- Middle -->
           </span>
-          <span class="header--hamburger-menu--button--icon-bottom">
+          <span class="hamburger-icon bottom-part">
             <!-- Bottom -->
           </span>
         </div>
       </div>
     </header>
     <!-- *Header Section (End) -->
-    
+
     <!-- *Hero Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <section class="hero">
-      <figure class="hero--image">
+      <figure class="hero-image">
         <img
           src="./images/choong-deng-xiang-tsVW8G7KbUE-unsplash.jpg"
           alt="A image depicting crypto-coins circling each other"
@@ -51,12 +49,11 @@
           height="2160"
           loading="lazy"
         />
-        <!-- ?Should we use a <figcaption> -->
       </figure>
 
-      <div class="hero--introduction">
+      <article class="introduction">
         <span class="accent-text">Hello</span>
-        <h2>We're <span class="accent-text">Team MNRW</span></h2>
+        <h1>We're <span class="accent-text">Team MNRW</span></h1>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
@@ -65,208 +62,304 @@
           praesentium quaerat? Blanditiis, esse.
         </p>
 
-        <button class="button">Hire Us</button>
-      </div>
+        <button class="btn">Hire Us</button>
+      </article>
     </section>
     <!-- *Hero Section (End) -->
-    
-    <!--About Us-section-->
+
+    <!-- *About Us Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
     <section class="about">
-        <h2 class="uppercase">About Us</h2>
-        <div class="about-block">
-            <figure class="image-container">
-                <div></div>
-                <img src="images/PROFILBILD.jpg" alt="Happy person.">
-                <div></div>
-            </figure>
-            <h3>Mamed Khodjaev</h3>
-            <h4>Blockchain Developer - Backend</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget blandit libero, nec malesuada turpis. 
-                Donec facilisis ex ut consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed. 
-                Integer finibus id libero ut dignissim. Aenean finibus nibh at magna aliquet scelerisque id vitae augue.
-            </p>
-            <div class="button-container">
-                <button>Download CV</button>
-                <button>
-                    <a href="#">Git</a>
-                </button>
-                <button>
-                    <a href="#">LinkedIn</a>
-                </button>
-                <button>
-                    <a href="#">X</a>
-                </button>
-            </div>
-        </div>
-        <div class="about-block">
-            <figure class="image-container">
-                <div></div>
-                <img src="images/Nataliya_Lisjo.jpg" alt="Happy person.">
-                <div></div>
-            </figure>
-            <h3>Nataliya Lisjö</h3>
-            <h4>Blockchain Developer - Fullstack</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget blandit libero, nec malesuada turpis. 
-                Donec facilisis ex ut consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed. 
-                Integer finibus id libero ut dignissim. Aenean finibus nibh at magna aliquet scelerisque id vitae augue.
-            </p>
-            <div class="button-container">
-                <button>Download CV</button>
-                <button>
-                    <a href="#">Git</a>
-                </button>
-                <button>
-                    <a href="#">LinkedIn</a>
-                </button>
-                <button>
-                    <a href="#">X</a>
-                </button>
-            </div>
-        </div>
-        <div class="about-block">
-            <figure class="image-container">
-                <div></div>
-                <img src="images/PROFILBILD.jpg" alt="Happy person.">
-                <div></div>
-            </figure>
-            <h3>Rowel Malmström</h3>
-            <h4>Blockchain Developer - Frontend</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget blandit libero, nec malesuada turpis. 
-                Donec facilisis ex ut consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed. 
-                Integer finibus id libero ut dignissim. Aenean finibus nibh at magna aliquet scelerisque id vitae augue.
-            </p>
-            <div class="button-container">
-                <button>Download CV</button>
-                <button>
-                    <a href="#">Git</a>
-                </button>
-                <button>
-                    <a href="#">LinkedIn</a>
-                </button>
-                <button>
-                    <a href="#">X</a>
-                </button>
-            </div>
-        </div>
-        <div class="about-block">
-            <figure class="image-container">
-                <div></div>
-                <img src="images/PROFILBILD.jpg" alt="Happy person.">
-                <div></div>
-            </figure>
-            <h3>Wilhelm Lövgren Olofsson</h3>
-            <h4>Blockchain Developer - Fullstack</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget blandit libero, nec malesuada turpis. 
-                Donec facilisis ex ut consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi elementum sed. 
-                Integer finibus id libero ut dignissim. Aenean finibus nibh at magna aliquet scelerisque id vitae augue.
-            </p>
-            <div class="button-container">
-                <button>Download CV</button>
-                <button>
-                    <a href="#">Git</a>
-                </button>
-                <button>
-                    <a href="#">LinkedIn</a>
-                </button>
-                <button>
-                    <a href="#">X</a>
-                </button>
-            </div>
-        </div>
-    </section>
-    
-    <!--Expertise-section-->
-    <section class="expertise">
-        <h2 class="uppercase">Expertise Area</h2>
-        <div class="expertise-container">
-            <div class="expertise-block">
-                <span>Icon</span>
-                <h3 class="uppercase">UI UX Design</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Duis vitae lorem ut urna rhoncus vehicula. 
-                    Suspendisse porttitor elit mi, ut mollis nulla mattis pulvinar. 
-                    Quisque urna neque, molestie eu pulvinar bibendum, vulputate at velit.
-                </p>
-            </div>
-            <div class="expertise-block">
-                <span>Icon</span>
-                <h3 class="uppercase">App Design</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Duis vitae lorem ut urna rhoncus vehicula. 
-                    Suspendisse porttitor elit mi, ut mollis nulla mattis pulvinar. 
-                    Quisque urna neque, molestie eu pulvinar bibendum, vulputate at velit.
-                </p>
-            </div>
-            <div class="expertise-block">
-                <span>Icon</span>
-                <h3 class="uppercase">Database</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Duis vitae lorem ut urna rhoncus vehicula. 
-                    Suspendisse porttitor elit mi, ut mollis nulla mattis pulvinar. 
-                    Quisque urna neque, molestie eu pulvinar bibendum, vulputate at velit.
-                </p>
-            </div>
-        </div>
-    </section>
-    
-    <!--Recent work -section-->
-     <section class="work">
-      <div>
-        <h2>Recent work</h2>
-      <p>Elementum sagittis vitae et leo duis ut diam quam nulla. Malesuada fames ac turpis egestas.</p>
+      <header>
+        <h2 class="uppercase accent-text">About Us</h2>
+      </header>
+
+      <!-- Mamed's Profile -->
+      <div class="about-block">
+        <figure class="image-container">
+          <div><!-- Decorative Element --></div>
+          <img
+            src="./images/PROFILBILD.jpg"
+            alt="Happy person."
+            width="500px"
+            height="500px"
+            loading="lazy"
+          />
+          <div><!-- Decorative Element --></div>
+        </figure>
+
+        <article class="profile-container">
+          <h3 class="accent-text">Mamed Khodjaev</h3>
+          <h4 class="accent-text">Blockchain Developer - Backend</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
+
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
       </div>
-      
-      <div class="grid-work">
-        <div>
-          <img src="images/david-shares-300-400.jpg"
-          alt="telephone with bitcoin"  >
+
+      <!-- Nataliya's Profile -->
+      <div class="about-block">
+        <figure class="image-container">
+          <div><!-- Decorative Element --></div>
+          <img
+            src="images/Nataliya_Lisjo.jpg"
+            alt="Happy person."
+            width="500px"
+            height="500px"
+            loading="lazy"
+          />
+          <div><!-- Decorative Element --></div>
+        </figure>
+
+        <article class="profile-container">
+          <h3 class="accent-text">Nataliya Lisjö</h3>
+          <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
+
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Rowel's Profile -->
+      <div class="about-block">
+        <figure class="image-container">
+          <div><!-- Decorative Element --></div>
+          <img
+            src="images/rowel-profile-picture.jpg"
+            alt="Happy person."
+            width="500px"
+            height="500px"
+            loading="lazy"
+          />
+          <div><!-- Decorative Element --></div>
+        </figure>
+
+        <article class="profile-container">
+          <h3 class="accent-text">Rowel Malmström</h3>
+          <h4 class="accent-text">Blockchain Developer - Frontend</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
+
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Wilhelm's Profile -->
+      <div class="about-block">
+        <figure class="image-container">
+          <div><!-- Decorative Element --></div>
+          <img
+            src="images/900886_438991_638293352576056091.png"
+            alt="Happy person."
+            width="500px"
+            height="500px"
+            loading="lazy"
+          />
+          <div><!-- Decorative Element --></div>
+        </figure>
+
+        <article class="profile-container">
+          <h3 class="accent-text">Wilhelm Lövgren Olofsson</h3>
+          <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+            blandit libero, nec malesuada turpis. Donec facilisis ex ut
+            consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+            elementum sed. Integer finibus id libero ut dignissim. Aenean
+            finibus nibh at magna aliquet scelerisque id vitae augue.
+          </p>
+
+          <div class="btn-container">
+            <button class="cv-btn">Download CV</button>
+            <button class="social-btn">
+              <a href="#">Git</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">LinkedIn</a>
+            </button>
+            <button class="social-btn">
+              <a href="#">X</a>
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- *About Us Section (End) -->
+
+    <!-- *Expertise Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+    <section class="service">
+      <header>
+        <h2 class="uppercase accent-text">Expertise Area</h2>
+      </header>
+
+      <div class="service-container">
+        <div class="service-block">
+          <span><!-- Icon --></span>
+          <h3 class="uppercase">UI UX Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+            lorem ut urna rhoncus vehicula. Suspendisse porttitor elit mi, ut
+            mollis nulla mattis pulvinar. Quisque urna neque, molestie eu
+            pulvinar bibendum, vulputate at velit.
+          </p>
         </div>
-        <div>
-          <img src="images/piggybank-360-240.jpg"
-          alt="ps with hand"  >
+
+        <div class="service-block">
+          <span><!-- Icon --></span>
+          <h3 class="uppercase">App Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+            lorem ut urna rhoncus vehicula. Suspendisse porttitor elit mi, ut
+            mollis nulla mattis pulvinar. Quisque urna neque, molestie eu
+            pulvinar bibendum, vulputate at velit.
+          </p>
         </div>
-        <div>
-          <img src="images/piggybank-tel-etoro-360-240.jpg"
-          alt="telephone green screen"  > 
-        </div>
-        <div>
-          <img src="images/piggybank-tel-360-240.jpg"
-          alt="telephone with bitcoin price">
-        </div>
-        <div>
-          <img src="images/piggybank-ps-360-240.jpg"
-          alt="ps"  >
+
+        <div class="service-block">
+          <span><!-- Icon --></span>
+          <h3 class="uppercase">Database</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+            lorem ut urna rhoncus vehicula. Suspendisse porttitor elit mi, ut
+            mollis nulla mattis pulvinar. Quisque urna neque, molestie eu
+            pulvinar bibendum, vulputate at velit.
+          </p>
         </div>
       </div>
-      <button>View all</button>
-  </section>
-    
-    <!-- Contact Section -->
-    <footer class="footer">
-      <form action="submit_form" method="post">
-          <input type="text" id="name" name="name" placeholder="Your Name">
-          <input type="email" id="email" name="email" placeholder="Email Address">
-          <textarea id="message" name="message" placeholder="Message..."></textarea>
-          <button type="submit">Submit</button>
+    </section>
+    <!-- *Expertise Section (End) -->
+
+    <!-- *Recent Work Section (Start )-->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+    <section class="work">
+      <header>
+        <h2 class="uppercase accent-text">Recent work</h2>
+        <p>
+          Elementum sagittis vitae et leo duis ut diam quam nulla. Malesuada
+          fames ac turpis egestas.
+        </p>
+      </header>
+
+      <div class="work-container">
+        <div class="work-item">
+          <img
+            src="images/david-shares-300-400.jpg"
+            alt="telephone with bitcoin"
+          />
+        </div>
+
+        <div class="work-item">
+          <img src="images/piggybank-360-240.jpg" alt="ps with hand" />
+        </div>
+
+        <div class="work-item">
+          <img
+            src="images/piggybank-tel-etoro-360-240.jpg"
+            alt="telephone green screen"
+          />
+        </div>
+
+        <div class="work-item">
+          <img
+            src="images/piggybank-tel-360-240.jpg"
+            alt="telephone with bitcoin price"
+          />
+        </div>
+
+        <div class="work-item">
+          <img src="images/piggybank-ps-360-240.jpg" alt="ps" />
+        </div>
+      </div>
+
+      <button class="btn">View all</button>
+    </section>
+    <!-- *Recent Work Section (End) -->
+
+    <!-- *Contact Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+    <footer class="contact">
+      <form class="contact-form" action="submit_form" method="post">
+        <input type="text" id="name" name="name" placeholder="Your Name" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email Address"
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message..."
+        ></textarea>
+        <button class="btn" type="submit">Submit</button>
       </form>
-      <div class="container">
-          <p>Morbi tincidunt ornare massa eget egestas purus viverra. Ipsum a arcu cursus vitae congue. Just say Hello</p>
-          <ul class="contact-info">
-              <li>Phone: +4612 345 67 89</li>
-              <li>Email: team@mrw.me</li>
-              <li>Address: 12 Street 3rd Place, Stockholm, Sweden</li>
-          </ul>
-      </div>
-      <div class="footer-bottom">
-          <p>©2023 Team MRW. All rights reserved.</p>
+
+      <div class="contact-container">
+        <p>
+          Morbi tincidunt ornare massa eget egestas purus viverra. Ipsum a arcu
+          cursus vitae congue. <span class="accent-text">Just say Hello</span>
+        </p>
+
+        <ul class="contact-info">
+          <li>Phone: +4612 345 67 89</li>
+          <li>Email: team@mrw.me</li>
+          <li>Address: 12 Street 3rd Place, Stockholm, Sweden</li>
+        </ul>
+
+        <p class="copyright">©2023 Team MRW. All rights reserved.</p>
       </div>
     </footer>
+    <!-- *Contact Section (End) -->
   </body>
 </html>
