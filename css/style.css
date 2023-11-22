@@ -1,0 +1,80 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif; /* dont know font we are using */
+}
+
+.accent-text {
+  color: #f9a826;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2d2f6f; /* BGC */
+  color: #ffffff;
+  padding: 2em;
+}
+
+.hero--image {
+  border: 3px dotted red;
+  width: clamp(200px, 80vw, 300px);
+  height: clamp(200px, 80vw, 300px);
+}
+
+.hero--image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Circle shape */
+}
+
+.hero--introduction {
+  flex: 1;
+  padding: 1em;
+  max-width: 500px;
+}
+
+.button {
+  background-color: #f9a826;
+  color: #ffffff;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0.3em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #dda20a;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .hero--image {
+    width: clamp(300px, 30vw, 500px);
+    height: clamp(300px, 30vw, 500px);
+  }
+}
