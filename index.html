@@ -316,8 +316,8 @@
     <!-- *Recent Work Section (End) -->
 
     <!-- *Contact Section (Start) -->
-    <footer class="footer">
-      <form action="submit_form" method="post">
+    <footer class="contact">
+      <form class="contact-form" action="submit_form" method="post">
         <input type="text" id="name" name="name" placeholder="Your Name" />
         <input
           type="email"
@@ -330,21 +330,22 @@
           name="message"
           placeholder="Message..."
         ></textarea>
-        <button type="submit">Submit</button>
+        <button class="btn" type="submit">Submit</button>
       </form>
-      <div class="container">
+
+      <div class="contact-container">
         <p>
           Morbi tincidunt ornare massa eget egestas purus viverra. Ipsum a arcu
-          cursus vitae congue. Just say Hello
+          cursus vitae congue. <span class="accent-text">Just say Hello</span>
         </p>
+
         <ul class="contact-info">
           <li>Phone: +4612 345 67 89</li>
           <li>Email: team@mrw.me</li>
           <li>Address: 12 Street 3rd Place, Stockholm, Sweden</li>
         </ul>
-      </div>
-      <div class="footer-bottom">
-        <p>©2023 Team MRW. All rights reserved.</p>
+
+        <p class="copyright">©2023 Team MRW. All rights reserved.</p>
       </div>
     </footer>
     <!-- *Contact Section (End) -->
