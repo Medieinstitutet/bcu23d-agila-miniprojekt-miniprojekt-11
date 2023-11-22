@@ -1,92 +1,93 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif; /* dont know font we are using */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif; /* dont know font we are using */
+}
+
+.accent-text {
+  color: #f9a826;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 2em;
 }
 
 /* Hero section styles */
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #2D2F6F; /* BGC */
-    color: #ffffff;
-    padding: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2d2f6f; /* BGC */
+  color: #ffffff;
+  padding: 2em;
 }
 
 .hero--image {
-width: 100%;
-height: 100%;
-flex: 1;
-display: none;
-justify-content: center;
-align-items: center;
+  border: 3px dotted red;
+  width: 300px;
+  height: 300px;
 }
 
 .hero--image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%; /* Circle shape */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Circle shape */
 }
 
 .hero--introduction {
-    flex: 1;
-    padding: 1em;
-}
-
-.accent-text {
-    color: #F9A826; 
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 2.5em; 
-    margin: 0.5em 0;
-}
-
-p {
-    line-height: 1.5;
-    margin-bottom: 2em;
+  /* flex: 1; */
+  padding: 1em;
+  max-width: 500px;
 }
 
 .button {
-    background-color: #F9A826; 
-    color: #ffffff;
-    border: none;
-    padding: 1em 2em;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 0.3em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: background-color 0.3s ease;
+  background-color: #f9a826;
+  color: #ffffff;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0.3em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #DDA20A; 
+  background-color: #dda20a;
 }
 
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
 
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-  
-    .hero--image img {
-        max-width: 80%; 
-    }
-  
-    .hero--introduction, .hero--image {
-        padding: 0.5em;
-        flex: none; 
-    }
+  .hero--image img {
+  }
 
-    h2 {
-        font-size: 2em; 
-    }
+  .hero--introduction,
+  .hero--image {
+    padding: 0.5em;
+    flex: none;
+  }
 
-    .button {
-        padding: 0.8em 1.6em; 
-        font-size: 0.9em; 
-    }
+  h2 {
+    font-size: 2em;
+  }
+
+  .button {
+    padding: 0.8em 1.6em;
+    font-size: 0.9em;
+  }
 }
