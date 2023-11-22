@@ -2,10 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./css/style.css" />
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miniprojekt 11 | Mamed, Natliya, Rowel, Wilhelm</title>
+ 
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- google font -->    
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ 
   </head>
+
   <body>
-    <!-- *Hero Section (Start) -->
+    <main>
+    <!-- *Header Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+    <header class="header">
+      <a href="#" aria-label="Logo"><div class="logo">MRW.</div></a>
+
+      <nav class="navigation uppercase">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger-menu">
+        <div class="hamburger-btn">
+          <span class="hamburger-icon top-part">
+            <!-- Top -->
+          </span>
+          <span class="hamburger-icon middle-part">
+            <!-- Middle -->
+          </span>
+          <span class="hamburger-icon bottom-part">
+            <!-- Bottom -->
+          </span>
+        </div>
+      </div>
+    </header>
+    <!-- *Header Section (End) -->
+
+ 
+       <!-- *Hero Section (Start) -->
     <section class="hero">
       <figure class="hero--image">
         <img
@@ -33,5 +83,305 @@
       </div>
     </section>
     <!-- *Hero Section (End) -->
-  </body>
+
+      <!-- *About Us Section (Start) -->
+      <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+      <section class="about">
+        <header>
+          <h2 class="uppercase accent-text">About Us</h2>
+        </header>
+
+        <!-- Mamed's Profile -->
+        <div class="about-block">
+          <figure class="image-container">
+            <div><!-- Decorative Element --></div>
+            <img
+              src="./images/PROFILBILD.jpg"
+              alt="Happy person."
+              width="500px"
+              height="500px"
+              loading="lazy" />
+            <div><!-- Decorative Element --></div>
+          </figure>
+
+          <article class="profile-container">
+            <h3 class="accent-text">Mamed Khodjaev</h3>
+            <h4 class="accent-text">Blockchain Developer - Backend</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              eget blandit libero, nec malesuada turpis. Donec facilisis ex ut
+              consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+              elementum sed. Integer finibus id libero ut dignissim. Aenean
+              finibus nibh at magna aliquet scelerisque id vitae augue.
+            </p>
+
+            <div class="btn-container">
+              <button class="cv-btn">Download CV</button>
+              <button class="social-btn">
+                <a href="#">Git</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">LinkedIn</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">X</a>
+              </button>
+            </div>
+          </article>
+        </div>
+        
+        <!-- Nataliya's Profile -->
+        <div class="about-block">
+          <figure class="image-container">
+            <div><!-- Decorative Element --></div>
+            <img
+              src="images/Nataliya_Lisjo.jpg"
+              alt="Happy person."
+              width="500px"
+              height="500px"
+              loading="lazy" />
+            <div><!-- Decorative Element --></div>
+          </figure>
+
+          <article class="profile-container">
+            <h3 class="accent-text">Nataliya Lisjö</h3>
+            <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              eget blandit libero, nec malesuada turpis. Donec facilisis ex ut
+              consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+              elementum sed. Integer finibus id libero ut dignissim. Aenean
+              finibus nibh at magna aliquet scelerisque id vitae augue.
+            </p>
+
+            <div class="btn-container">
+              <button class="cv-btn">Download CV</button>
+              <button class="social-btn">
+                <a href="#">Git</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">LinkedIn</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">X</a>
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Rowel's Profile -->
+        <div class="about-block">
+          <figure class="image-container">
+            <div><!-- Decorative Element --></div>
+            <img
+              src="images/rowel-profile-picture.jpg"
+              alt="Happy person."
+              width="500px"
+              height="500px"
+              loading="lazy" />
+            <div><!-- Decorative Element --></div>
+          </figure>
+
+          <article class="profile-container">
+            <h3 class="accent-text">Rowel Malmström</h3>
+            <h4 class="accent-text">Blockchain Developer - Frontend</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              eget blandit libero, nec malesuada turpis. Donec facilisis ex ut
+              consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+              elementum sed. Integer finibus id libero ut dignissim. Aenean
+              finibus nibh at magna aliquet scelerisque id vitae augue.
+            </p>
+
+            <div class="btn-container">
+              <button class="cv-btn">Download CV</button>
+              <button class="social-btn">
+                <a href="#">Git</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">LinkedIn</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">X</a>
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Wilhelm's Profile -->
+        <div class="about-block">
+          <figure class="image-container">
+            <div><!-- Decorative Element --></div>
+            <img
+              src="images/900886_438991_638293352576056091.png"
+              alt="Happy person."
+              width="500px"
+              height="500px"
+              loading="lazy" />
+            <div><!-- Decorative Element --></div>
+          </figure>
+
+          <article class="profile-container">
+            <h3 class="accent-text">Wilhelm Lövgren Olofsson</h3>
+            <h4 class="accent-text">Blockchain Developer - Fullstack</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              eget blandit libero, nec malesuada turpis. Donec facilisis ex ut
+              consequat maximus. Etiam dapibus hendrerit nunc, sed luctus mi
+              elementum sed. Integer finibus id libero ut dignissim. Aenean
+              finibus nibh at magna aliquet scelerisque id vitae augue.
+            </p>
+
+            <div class="btn-container">
+              <button class="cv-btn">Download CV</button>
+              <button class="social-btn">
+                <a href="#">Git</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">LinkedIn</a>
+              </button>
+              <button class="social-btn">
+                <a href="#">X</a>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- *About Us Section (End) -->
+
+      <!-- *Expertise Section (Start) -->
+      <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+      <section class="service">
+        <header>
+          <h2 class="uppercase accent-text">Expertise Area</h2>
+        </header>
+
+        <div class="service-container">
+          <div class="service-block">
+            <span><!-- Icon --></span>
+            <h3 class="uppercase">UI UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              vitae lorem ut urna rhoncus vehicula. Suspendisse porttitor elit
+              mi, ut mollis nulla mattis pulvinar. Quisque urna neque, molestie
+              eu pulvinar bibendum, vulputate at velit.
+            </p>
+          </div>
+
+          <div class="service-block">
+            <span><!-- Icon --></span>
+            <h3 class="uppercase">App Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              vitae lorem ut urna rhoncus vehicula. Suspendisse porttitor elit
+              mi, ut mollis nulla mattis pulvinar. Quisque urna neque, molestie
+              eu pulvinar bibendum, vulputate at velit.
+            </p>
+          </div>
+
+          <div class="service-block">
+            <span><!-- Icon --></span>
+            <h3 class="uppercase">Database</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              vitae lorem ut urna rhoncus vehicula. Suspendisse porttitor elit
+              mi, ut mollis nulla mattis pulvinar. Quisque urna neque, molestie
+              eu pulvinar bibendum, vulputate at velit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- *Expertise Section (End) -->
+
+      <!-- *Recent Work Section (Start )-->
+      <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+      <section class="work">
+        <header>
+          <h2 class="uppercase accent-text">Recent work</h2>
+          <p>
+            Elementum sagittis vitae et leo duis ut diam quam nulla. Malesuada
+            fames ac turpis egestas.
+          </p>
+        </header>
+
+        <div class="work-container">
+          <div class="work-item">
+            <img
+              src="images/david-shares-300-400.jpg"
+              alt="telephone with bitcoin" />
+          </div>
+
+          <div class="work-item">
+            <img src="images/piggybank-360-240.jpg"
+          alt="notebook with hand"  >
+          </div>
+
+          <div class="work-item">
+            <img
+              src="images/piggybank-tel-etoro-360-240.jpg"
+              alt="telephone green screen" />
+          </div>
+
+          <div class="work-item">
+            <img
+              src="images/piggybank-tel-360-240.jpg"
+              alt="telephone with bitcoin price" />
+          </div>
+
+          <div class="work-item">
+            <img src="images/piggybank-ps-360-240.jpg"
+          alt="notebook"  >
+          </div>
+        </div>
+        
+        <button class="btn">View all</button>
+      </section>
+      <!-- *Recent Work Section (End) -->
+ 
+
+    <!-- *Contact Section (Start) -->
+    <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
+    <footer class="contact">
+      <form class="contact-form" action="submit_form" method="post">
+        <input type="text" id="name" name="name" placeholder="Your Name" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email Address" />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message..."></textarea>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+
+      <div class="contact-container">
+        <p>
+          Morbi tincidunt ornare massa eget egestas purus viverra. Ipsum a arcu
+          cursus vitae congue. <span class="accent-text">Just say Hello</span>
+        </p>
+
+        <ul class="contact-info">
+          <li>Phone: +4612 345 67 89</li>
+          <li>Email: team@mrw.me</li>
+          <li>Address: 12 Street 3rd Place, Stockholm, Sweden</li>
+        </ul>
+
+        <p class="copyright">©2023 Team MRW. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- *Contact Section (End) -->
+  </main>
+ 
+
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+ 
 </html>
