@@ -1,11 +1,11 @@
 @import "./variables";
 @import "./normalize"; 
-@import "header";
-@import "hero";
-@import "about";
-@import "service";
-@import "work";
-@import "contact";
+@import "./desktop/_desktop-header";
+@import "./desktop/_desktop-hero";
+@import "./desktop/_desktop-about";
+@import "./desktop/_desktop-service";
+@import "./desktop/_desktop-work";
+@import "./desktop/_desktop-contact";
 @import "screen";
 
 body .main {
@@ -13,4 +13,5 @@ body .main {
     margin-top: 40px;
     margin-bottom: 30px;
     background-color: $dark-purple;
+    color: $white;
   }
