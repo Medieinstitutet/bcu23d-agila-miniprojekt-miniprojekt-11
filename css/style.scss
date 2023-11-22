@@ -2,6 +2,7 @@
 @import "./normalize";  
 @import "screen";
 @import "./header";
+@import "./work";
 
 body,
 html,
@@ -9,7 +10,7 @@ html,
     font-family: $font-primary;
     margin-top: 40px;
     margin-bottom: 30px;
-    background-color: #15142c;
+    background-color: $light-purple;
     color: $white;
   }
   * {
