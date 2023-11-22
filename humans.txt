@@ -1,0 +1,25 @@
+/* TEAM */
+Developer: Rowel Malmström
+Role: Scrum Master
+GitHub: @rowpacmal
+
+Developer: Rowel Malmström
+Role: Developer
+GitHub: @BTK88
+
+Developer: Nataliya Lisjö
+Role: Developer
+GitHub: @natlee77
+
+Developer: Wilhelm Lövgren Olofsson
+Role: Developer
+GitHub: @lisce18
+
+/* CONTACT */
+Email: team@mnrw.se
+X: @TeamMNRW
+LinkedIn: https://www.linkedin.com/TeamMNRW/
+
+/* THANK YOU FOR VISITING! */
+This humans.txt file was created with love and passion for web development. 
+Thank you for visiting our website and taking the time to learn more about the people behind it.
