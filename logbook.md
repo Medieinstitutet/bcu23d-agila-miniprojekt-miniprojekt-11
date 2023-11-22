@@ -15,3 +15,10 @@
 - mini group discussion, dividing tasks among ourselves
 - unify the html class, find reusable classes
 - setting up css reset, normalize, variables and general styles
+
+# Date: 2023-11-22
+- Worked with css for the website
+- Done pull requests
+- Structured our css files
+- Improved our projectboard, more detailed
+- Added additional assets in our repo
