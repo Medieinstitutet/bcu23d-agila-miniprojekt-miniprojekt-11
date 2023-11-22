@@ -1,16 +1,42 @@
 @import "./variables";
-@import "./normalize"; 
-@import "header";
-@import "hero";
-@import "about";
-@import "service";
-@import "work";
-@import "contact";
+@import "./normalize";  
 @import "screen";
+@import "./header";
 
-body .main {
+body,
+html,
+.main {
     font-family: $font-primary;
     margin-top: 40px;
     margin-bottom: 30px;
-    background-color: $dark-purple;
+    background-color: #15142c;
+    color: $white;
   }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: 1px solid red;    // help to control 
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .desktop-only {
+    display: none;
+  }
+  
+  .mobile-only {
+    display: contents;
+  }
+  
+  @media screen and (min-width: 778px) {}

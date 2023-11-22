@@ -1,0 +1,39 @@
+@import "./variables";
+@import "./normalize";  
+
+.header-nav{
+    overflow: hidden;
+    width: 100%; 
+    top: 0;   
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+    background-color: $dark-purple;
+   
+    a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: $white;
+      }
+   nav{  
+  
+    ul {
+        display: flex; 
+        justify-content:space-between ;
+        list-style: none;
+        font-weight: bold; 
+         
+      }
+      li {  
+        margin: 0 10px;
+        font-weight: 500;        
+        font-size: 18px;
+        text-decoration: none;  
+      }
+    }
+}
+
