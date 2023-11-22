@@ -5,7 +5,7 @@
  
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miniprojekt 11 | Mamed, Natliya, Rowel, Wilhelm</title>
- 
+    
     <link rel="stylesheet" href="css/_service.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Favicon -->
@@ -13,19 +13,19 @@
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <!-- google font -->    
- 
+
+    <!-- google font -->      
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
- 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
   </head>
 
   <body>
     <main>
     <!-- *Header Section (Start) -->
     <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
-    <header class="header">
+    <header class="header-nav container">
       <a href="#" aria-label="Logo"><div class="logo">MRW.</div></a>
 
       <nav class="navigation uppercase">
@@ -38,25 +38,24 @@
         </ul>
       </nav>
 
-      <div class="hamburger-menu">
-        <div class="hamburger-btn">
-          <span class="hamburger-icon top-part">
+      <div class="menu">
+        <div class="menu-btn-icon">
+          <span class="icon top-part">
             <!-- Top -->
           </span>
-          <span class="hamburger-icon middle-part">
+          <span class="icon middle-part">
             <!-- Middle -->
           </span>
-          <span class="hamburger-icon bottom-part">
+          <span class="icon bottom-part">
             <!-- Bottom -->
           </span>
         </div>
       </div>
     </header>
     <!-- *Header Section (End) -->
-
  
        <!-- *Hero Section (Start) -->
-    <section class="hero">
+    <section id="home" class="hero">
       <figure class="hero--image">
         <img
           src="./images/choong-deng-xiang-tsVW8G7KbUE-unsplash.jpg"
@@ -65,7 +64,6 @@
           height="2160"
           loading="lazy"
         />
-        <!-- ?Should we use a <figcaption> -->
       </figure>
 
       <div class="hero--introduction">
@@ -86,7 +84,7 @@
 
       <!-- *About Us Section (Start) -->
       <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
-      <section class="about">
+      <section id="about" class="about">
         <header>
           <h2 class="uppercase accent-text">About Us</h2>
         </header>
@@ -251,7 +249,7 @@
 
       <!-- *Expertise Section (Start) -->
       <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
-      <section class="service">
+      <section id="service" class="service">
         <header>
           <h2 class="uppercase accent-text">Expertise Area</h2>
         </header>
@@ -295,16 +293,16 @@
 
       <!-- *Recent Work Section (Start )-->
       <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
-      <section class="work">
+      <section id="work" class="work container">
         <header>
-          <h2 class="uppercase accent-text">Recent work</h2>
+          <h2 class="uppercase accent-text">RECENT WORK</h2>
           <p>
             Elementum sagittis vitae et leo duis ut diam quam nulla. Malesuada
             fames ac turpis egestas.
           </p>
         </header>
 
-        <div class="work-container">
+        <div class="work-grid">
           <div class="work-item">
             <img
               src="images/david-shares-300-400.jpg"
@@ -337,11 +335,10 @@
         <button class="btn">View all</button>
       </section>
       <!-- *Recent Work Section (End) -->
- 
 
     <!-- *Contact Section (Start) -->
     <!-- !Ignore the classes: uppercase, accent-text, btn. These will be in the '_general.scss' stylesheet -->
-    <footer class="contact">
+    <footer id="contact" class="contact">
       <form class="contact-form" action="submit_form" method="post">
         <input type="text" id="name" name="name" placeholder="Your Name" />
         <input
@@ -374,7 +371,6 @@
     <!-- *Contact Section (End) -->
   </main>
  
-
   <script src="js/main.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
