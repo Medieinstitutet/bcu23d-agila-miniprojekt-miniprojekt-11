@@ -7,6 +7,7 @@ $dark-purple: #15142c; //   Dark Purple (BG)  #15142c
 $light-purple: #1e1c39; // Light Purple (BG)  #1e1c39
 $white: #ffffff; //  text white -- #ffffff
 
+
 @function rem($size) {
   @return calc($size / 16) * 1rem;
 }
