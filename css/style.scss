@@ -3,7 +3,12 @@
 @import "screen";
 @import "./header";
 @import "./work";
+
+// @import "./service";
+// @import "./about";
+
  
+
 
 body,
 html,
@@ -36,18 +41,24 @@ html,
   .desktop-only {
     display: none;
   }
-  
   .mobile-only {
     display: contents;
   }
-  
-  @media screen and (min-width: 778px) {}
 
-     .desktop-only {
+
+
+  
+  @media screen and (min-width: 778px) {
+    .desktop-only {
       display: contents;
     }
     .mobile-only {
       display: none;
     }
-    
+  }
+
+     
+ 
+ 
+ 
   }
