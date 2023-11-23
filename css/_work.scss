@@ -1,12 +1,14 @@
 @import "./variables";
- 
+
+.work-grid{
+    display: flex;
+    flex-direction: column; 
 .work{
     padding-top: 2rem;
     text-align: center;
     h2{
         color: $yellow;
         font-size: 1.5rem;
-
     }
     .work-grid{
         display: flex;
@@ -28,4 +30,5 @@
         font-weight: bold;
         text-shadow: rgb(13, 13, 12) 2px 0 10px;
     }
+
 }

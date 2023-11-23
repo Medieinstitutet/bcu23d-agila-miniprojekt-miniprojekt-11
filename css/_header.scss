@@ -1,6 +1,5 @@
 @import "./variables";
 
-
 .header-nav{   
     overflow: hidden;
     width: 100%; 
@@ -36,9 +35,10 @@
         text-decoration: none;  
       }
     }
+  
 
-    .menu{ 
-       
+
+    .menu{        
         font-size: 30px;             
     }
 
@@ -61,6 +61,16 @@
         transform: translateX(-3px);
         background-color: yellow;
       } 
+
+   
+
+        .menu-btn-icon:hover:icon   {
+            transform: translateX(-3px);
+          } 
+  
+
+
+      
 }
 
 }

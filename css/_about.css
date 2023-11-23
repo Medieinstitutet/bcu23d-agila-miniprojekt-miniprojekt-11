@@ -1,0 +1,107 @@
+/* About Us Section CSS*/
+.about{
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #1e1C39;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+.about h2{
+    color: #efb800;
+    font-size: 3rem;
+}
+.about-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 5rem;
+}
+.image-container{
+    width: 500px;
+    height: 500px;
+    margin-top: 3rem;
+    position: relative;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-container::before{
+    content: '';
+    position: absolute;
+    top: -1.5em;
+    left: -1.5em;
+    width: 30%;
+    height: 30%;
+    border-top: 10px solid #efb800;;
+    border-left: 10px solid #efb800;
+}
+.image-container::after{
+    content: '';
+    position: absolute;
+    right: -1.5em;
+    bottom: -1.5em;
+    width: 30%;
+    height: 30%;
+    border-bottom: 10px solid #efb800;
+    border-right: 10px solid #efb800;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.profile-container p{
+    color: white;
+    font-size: 1.5rem;
+}
+.profile-container h3{
+    color: #efb800;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+.profile-container h4{
+    color: #efb800;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.btn-container{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 16.5rem;
+    justify-content: space-evenly;
+    height: 3.5rem;
+    margin-top: 1rem;
+}
+.cv-btn{
+    background-color: #efb800;
+    width: 13rem;
+    height: 3.5rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    align-items: center;
+}
+.social-btn-container{
+    display: flex;
+    margin-top: 1rem;
+}
+.social-btn{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0;
+    background-color: #15142c;
+    border: 0;
+}

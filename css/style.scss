@@ -1,10 +1,14 @@
 @import "./variables";
-@import "./normalize";  
+@import "./normalize";
 @import "screen";
 @import "./header";
 @import "./work";
+
 // @import "./service";
 // @import "./about";
+
+ 
+
 
 body,
 html,
@@ -40,6 +44,10 @@ html,
   .mobile-only {
     display: contents;
   }
+
+
+
+  
   @media screen and (min-width: 778px) {
     .desktop-only {
       display: contents;
@@ -47,4 +55,10 @@ html,
     .mobile-only {
       display: none;
     }
+  }
+
+     
+ 
+ 
+ 
   }
