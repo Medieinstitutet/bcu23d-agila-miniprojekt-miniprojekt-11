@@ -1,26 +1,27 @@
 @import "./variables";
- 
 
-.header-nav{
+
+.header-nav{   
     overflow: hidden;
     width: 100%; 
-    top: 0;   
+    margin-top: 0; 
+    top: 0;       
     position: fixed;
     display: flex;
-    justify-content: flex-start;
-    z-index: 2;
-    background-color: $dark-purple;
-   
+    justify-content: space-between;    
+    background-color: $light-purple;
+    height: 80px;
+    align-items: center;
+     
     a {
         float: left;
         display: block;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        color: $white;
+        color: $white;        
       }
-   nav{  
-  
+   nav{      
     ul {
         display: flex; 
         justify-content:space-between ;
@@ -35,11 +36,31 @@
         text-decoration: none;  
       }
     }
-    .menu-btn-icon{
 
-        .menu-btn-icon:hover:icon top-part  {
-            transform: translateX(-3px);
-          } 
+    .menu{ 
+       
+        font-size: 30px;             
     }
+
+    .active {      
+        margin-left: 3rem;
+        background-color: $yellow;
+        text-shadow: rgb(97, 97, 91) 2px 0 5px;
+        color: white;
+        font-size: 110%;
+        border-radius: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        align-items:   center;
+        text-align: center;
+     .menu-btn-icon{
+        margin-right: 3rem;
+     }
+    .menu-btn-icon:hover  {
+        transform: translateX(-3px);
+        background-color: yellow;
+      } 
 }
 
+}
