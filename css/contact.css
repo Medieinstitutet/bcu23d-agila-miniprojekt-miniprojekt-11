@@ -1,0 +1,94 @@
+.footer {
+  background-color: #15142c;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer form {
+  background-color: #1e1c39;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.footer input,
+.footer textarea,
+.footer button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.footer input[type="text"],
+.footer input[type="email"] {
+  background-color: #15142c;
+  color: white;
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
+.footer textarea {
+  background-color: #1e1c39;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+}
+
+.footer textarea:focus {
+  box-shadow: 0 0 0 2px white;
+}
+
+.footer button {
+  background-color: #f2af00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer button:hover {
+  background-color: #cc8400;
+}
+
+.container {
+  background-color: #15142c;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container p,
+.container ul {
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container li {
+  margin-bottom: 5px;
+}
+
+/* Footer Bottom Styles */
+.footer-bottom {
+  background-color: #15142c;
+  padding: 10px 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+/* @media (max-width: 1024px) {
+    .footer form, .container {
+        width: 100%; 
+        display: block;
+    }
+} */
