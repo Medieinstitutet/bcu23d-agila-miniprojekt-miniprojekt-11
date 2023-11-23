@@ -20,6 +20,13 @@ Email: team@mnrw.se
 X: @TeamMNRW
 LinkedIn: https://www.linkedin.com/TeamMNRW/
 
+/* CREDITS */
+Thanks to these creators:
+Choong Deng Xiang,
+David Shares,
+PiggyBank
+we have som nice images from unsplash for our website
+
 /* THANK YOU FOR VISITING! */
 This humans.txt file was created with love and passion for web development. 
 Thank you for visiting our website and taking the time to learn more about the people behind it.
