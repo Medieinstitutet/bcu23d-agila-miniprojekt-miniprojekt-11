@@ -1,40 +1,69 @@
-@import "./variables";
+.header-nav {
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 2;
+  background-color: $dark-purple;
 
 
-.header-nav{
-    overflow: hidden;
-    width: 100%; 
-    top: 0;   
-    position: fixed;
-    display: flex;
-    justify-content: flex-start;
-    z-index: 2;
-    background-color: $dark-purple;
-   
-    a {
-        float: left;
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        color: $white;
-      }
-   nav{  
-  
+  a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: $white;
+  }
+  nav {
+
     ul {
-        display: flex; 
-        justify-content:space-between ;
-        list-style: none;
-        font-weight: bold; 
-         
-      }
-      li {  
-        margin: 0 10px;
-        font-weight: 500;        
-        font-size: 18px;
-        text-decoration: none;  
-      }
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      font-weight: bold;
     }
+
+    li {
+      margin: 0 10px;
+      font-weight: 500;
+      font-size: 18px;
+      text-decoration: none;
+    }
+  }
+
+  .menu-btn-icon:hover:icon {
+    transform: translateX(-3px);
+  }
+}
+
+  
+
+    .menu{        
+        font-size: 30px;             
+    }
+
+    .active {      
+        margin-left: 3rem;
+        background-color: $yellow;
+        text-shadow: rgb(97, 97, 91) 2px 0 5px;
+        color: white;
+        font-size: 110%;
+        border-radius: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        align-items:   center;
+        text-align: center;
+     .menu-btn-icon{
+        margin-right: 3rem;
+     }
+    .menu-btn-icon:hover  {
+        transform: translateX(-3px);
+        background-color: yellow;
+      } 
 
    
 
@@ -42,6 +71,10 @@
             transform: translateX(-3px);
           } 
   
+
+
+      
+}
 
 }
 
