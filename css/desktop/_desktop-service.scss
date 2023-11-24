@@ -1,0 +1,30 @@
+/* Desktop Expertise Section CSS */
+.service{
+    height: min-content;
+    width: 100%;
+    padding: 3rem;
+}
+.service-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+.service-block{
+    padding: 3rem;
+}
+.service-block span{
+    margin: 1rem;
+    margin-bottom: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.service-block h3{
+    margin: 1rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.service-block p{
+    font-size: 1.5rem;
+}

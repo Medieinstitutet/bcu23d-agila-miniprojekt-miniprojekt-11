@@ -57,21 +57,14 @@
         display: flex;
         align-items:   center;
         text-align: center;
-     .menu-btn-icon{
+      .menu-btn-icon{
         margin-right: 3rem;
-     }
-    .menu-btn-icon:hover  {
+      }
+      .menu-btn-icon:hover  {
         transform: translateX(-3px);
         background-color: yellow;
       } 
-
-   
-
-        .menu-btn-icon:hover:icon   {
-            transform: translateX(-3px);
-          } 
-  
-
-
-      
-}
+      .menu-btn-icon:hover:icon   {
+        transform: translateX(-3px);
+      } 
+    }
