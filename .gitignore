@@ -10,7 +10,8 @@ packages
 
 # Hidden system files
 .DS_Store
-thumbs.db
+Desktop.ini
+Thumbs.db
 
 # Log files
 logs
