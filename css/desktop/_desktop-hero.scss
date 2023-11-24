@@ -1,0 +1,60 @@
+.hero {
+  display: flex;
+  flex-direction: row-reverse;  
+  align-items: center;  
+  text-align: left;
+  justify-content: center;  
+  padding: 30px;  
+}
+
+
+.hero-image {
+  height: 310px; 
+  width: 310px;
+}
+
+.hero-image img {
+  width: 100%; 
+  height: 100%; 
+}
+
+
+.introduction {
+  flex: 1; 
+  max-width: 50%; 
+  padding: 0 20px; 
+  margin-left: 20px;
+}
+
+
+.accent-text {
+  color:  #efb800; 
+}
+
+
+.btn {
+  background-color: #ffcc00; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  border-radius: 5px; 
+}
+
+
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center; 
+  }
+
+  .hero-image,
+  .introduction {
+    max-width: 100%; 
+  }
+
+  .hero-image {
+    order: -1; 
+  }
+}

@@ -1,0 +1,90 @@
+.header-nav {
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  padding: 1em 3em;
+  background-color: $dark-purple;
+}
+
+.logo {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-decoration: none;
+  color: $white;
+  background-color: $yellow;
+  border-radius: 50%;
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}
+
+.navigation {
+  width: 100%;
+  display: none;
+  justify-content: end;
+
+  ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    font-weight: bold;
+  }
+
+  li {
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+  }
+}
+
+.menu {
+  font-size: 2.5rem;
+}
+
+.menu-btn-icon:hover {
+  cursor: pointer;
+  color: $yellow;
+}
+
+    .active {      
+        margin-left: 3rem;
+        background-color: $yellow;
+        text-shadow: rgb(97, 97, 91) 2px 0 5px;
+        color: white;
+        font-size: 110%;
+        border-radius: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        align-items:   center;
+        text-align: center;
+      .menu-btn-icon{
+        margin-right: 3rem;
+      }
+      .menu-btn-icon:hover  {
+        transform: translateX(-3px);
+        background-color: yellow;
+      } 
+      .menu-btn-icon:hover:icon   {
+        transform: translateX(-3px);
+      } 
+    }
