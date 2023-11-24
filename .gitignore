@@ -1,0 +1,22 @@
+# Repository files
+/images/archive
+CONTRACT.md
+humans.txt
+logbook.md
+
+# Dependency caches
+node_modules
+packages
+
+# Hidden system files
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# Log files
+logs
+*.log
+
+# Sass
+*.css.map
+*.css
