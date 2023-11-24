@@ -12,14 +12,18 @@
 }
 
 .work-item {
-  position: relative;
   width: 400px;
   height: 300px;
   cursor: pointer;
-  z-index: 3;
+  filter: grayscale(100%);
 
   img {
     object-fit: cover;
+  }
+
+  &:hover {
+    filter: grayscale(0);
+    border: 3px solid $yellow;
   }
 }
 
