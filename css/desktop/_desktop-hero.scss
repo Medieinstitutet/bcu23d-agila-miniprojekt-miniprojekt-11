@@ -2,20 +2,20 @@
   display: flex;
   flex-direction: row-reverse;  
   align-items: center;  
-  justify-content: flex-start;  
-  padding: 20px;  
+  text-align: left;
+  justify-content: center;  
+  padding: 30px;  
 }
 
 
 .hero-image {
-  max-width: 50%; 
-  width: 500%;
+  height: 310px; 
+  width: 310px;
 }
 
 .hero-image img {
   width: 100%; 
-  height: auto; 
-  max-width: 500px;
+  height: 100%; 
 }
 
 
