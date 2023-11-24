@@ -31,3 +31,4 @@
 - # Date: 2023-11-24
 - Finishing up the last lose strings of the project
 - Double checking for last minute changes
+- The site need some improvements and additional work, but we didn't manage work on those part because of the time limit of this project
