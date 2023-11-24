@@ -22,3 +22,12 @@
 - Structured our css files
 - Improved our projectboard, more detailed
 - Added additional assets in our repo
+
+# Date: 2023-11-23
+- Clean up the main branch
+- Start working on the css for the desktop screensize
+- Allowed mameber @natlee77 to take leave of the project for personal matters, but her contributions are still valid and wellcomed.
+
+- # Date: 2023-11-24
+- Finishing up the last lose strings of the project
+- Double checking for last minute changes
